@@ -14,7 +14,7 @@ const Header: FC = () => {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    <div className="sticky top-0 z-10 bg-white">
+    <div className="sticky top-0 z-10 bg-white mb-10">
       <div className="container mx-auto ">
         <div className=" flex items-center  gap-[69px] justify-between mt-5 ">
           <Link to={"/"}>
